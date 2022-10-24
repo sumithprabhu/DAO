@@ -10,6 +10,8 @@ module.exports = {
     goerli: {
       url: QUICKNODE_HTTP_URL,
       accounts: [PRIVATE_KEY],
+      gas: 2100000,
+      gasPrice: 8000000000,
     },
   },
 };
